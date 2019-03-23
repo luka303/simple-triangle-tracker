@@ -2,7 +2,7 @@ body{
 	background-image: url(/home/luka/triangle-tracker/images/triangle.gif);
 }
 h1{
-	color:yellow;
+	color:#9966ff;
 	text align:center;
 }
 p{
@@ -22,4 +22,10 @@ p{
   font-size: 16px;
 	border-radius: 12px;
 }
+.para{
+	border: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }

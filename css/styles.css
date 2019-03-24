@@ -32,9 +32,18 @@ p{
 	padding-bottom: 50px;
 	text-align: center;
 }
-@media all and (min-width: 480px) {
-    body {
-        background-color: black;
-        color: white;
-    }
+.input1{
+    padding: 20px;
+    color: lawngreen;
+    font-weight: bold;
+}
+.input2{
+    padding: 20px;
+    color: lawngreen;
+    font-weight: bold;
+}
+.input3{
+    padding: 20px;
+    color: lawngreen;
+    font-weight: bold;
 }

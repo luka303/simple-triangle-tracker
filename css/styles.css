@@ -30,7 +30,7 @@ p{
 	border: 10px lawngreen;
 	padding-left: 100px;
 	padding-right: 100px;
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-bottom: 70px;
 	text-align: center;
 }
@@ -53,5 +53,6 @@ p{
 	body{
 		background-image: url(/home/luka/triangle-tracker/images/triangle5.gif);
 		font-size: 20px;
+		color: white;
 	}
 }

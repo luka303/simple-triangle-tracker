@@ -13,6 +13,9 @@ function triangle (sideA,sideB,sideC) {
     if (sideA<=0 ||sideB<=0 || sideC<=0){
       alert("Values too small to form a triangle");
     }
+    if (sideA + sideB <= sideC || sideA +sideC <= sideB || sideB + sideC <= sideA) {
+      alert("Not a triangle.The sum of two sides should not be greater than the third")
+    }
 
     if (a===b && b===c && c===a) {
         alert("Equilateral");

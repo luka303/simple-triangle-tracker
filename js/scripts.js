@@ -7,6 +7,10 @@ function triangle (sideA,sideB,sideC) {
     var b = parseInt(sideB);
     var c = parseInt(sideC);
 
+    if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC)) {
+    triType.textContent = "Please enter numbers only!";
+    }
+
     if (a===b && b===c && c===a) {
         alert("Equilateral");
     }
@@ -23,7 +27,5 @@ function triangle (sideA,sideB,sideC) {
 triangle();
 
 
-if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC)) {
-    triType.textContent = "Please enter numbers only!";
-}
+
 (sideA===null || sideB===null || sideC===null)

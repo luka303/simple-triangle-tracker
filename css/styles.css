@@ -21,6 +21,7 @@ p{
   display: inline-block;
   font-size: 16px;
 	border-radius: 12px;
+	font-family: monospace;
 }
 .para{
 	border: 30px;
@@ -28,4 +29,10 @@ p{
 	padding-right: 50px;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color: black;
+        color: white;
+    }
 }

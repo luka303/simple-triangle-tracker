@@ -7,7 +7,7 @@ function triangle (sideA,sideB,sideC) {
     var b = parseInt(sideB);
     var c = parseInt(sideC);
 
-    if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC)) {
+    if (isNaN(sideA)) {
        alert("Please enter numbers only!");
     }
     if (sideA<=0 ||sideB<=0 || sideC<=0){

@@ -1,8 +1,7 @@
-
 function triangle (sideA,sideB,sideC) {
     var sideA = prompt("Enter a value for side A: ");
     var sideB = prompt("Enter a value for side B: ");
-    var sideC = prompt("Enter a value for side C: ");
+    var sideC = prompt("Enter a value for side A: ");
 
     var a = parseInt(sideA);
     var b = parseInt(sideB);
@@ -27,6 +26,4 @@ triangle();
 if (isNaN(sideA) || isNaN(sideB) || isNaN(sideC)) {
     triType.textContent = "Please enter numbers only!";
 }
-if (sideA===null || sideB===null || sideC===null){
-	alert("Please enter numerical values")
-}
+(sideA===null || sideB===null || sideC===null)

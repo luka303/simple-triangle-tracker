@@ -17,6 +17,7 @@ The program incorporates use of simple html to make up the business logic which 
 # Author
 The program was made and is updated by Luka Wandanje
 # Active site
+https://luka303.github.io/simple-triangle-tracker/
 
 # license information
 MIT License

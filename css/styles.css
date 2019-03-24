@@ -27,10 +27,10 @@ p{
 	font-family: monospace;
 }
 .para{
-	border: 30px lawngreen;
+	border: 10px lawngreen;
 	padding-left: 100px;
 	padding-right: 100px;
-	padding-top: 70px;
+	padding-top: 30px;
 	padding-bottom: 70px;
 	text-align: center;
 }
@@ -40,7 +40,7 @@ p{
     font-weight: bold;
 }
 .side2{
-    padding: 20px;
+    padding: 20px ;
     color: lawngreen;
     font-weight: bold;
 }
@@ -52,6 +52,6 @@ p{
 @media only screen and (min-width: 600px){
 	body{
 		background-image: url(/home/luka/triangle-tracker/images/triangle5.gif);
-		font-size: 50px;
+		font-size: 20px;
 	}
 }

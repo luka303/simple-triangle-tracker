@@ -14,6 +14,12 @@ run it in a separate folder
 ##### 6.if the sum of any two sides of the triangle is equal to or less than remaining side then a triangle cannot be formed using the values
 # Technologies used
 The program incorporates use of simple html to make up the business logic which is styled by a custom made stylesheet.The program itself is written in javascript
+# BDD
+|Behaviour             | Input               |Output              |
+|---------------------:|--------------------:|--------------------|
+| All sides are equal  |sideA=sideB=sideC    |Equilateral triangle|
+| Two sides are equal  |sideA=sideB!sideC    |isosceles triangle  |
+| no side is equal     |sideA!sideB!sideC    |scalene triangle    |    
 # Author
 The program was made and is updated by Luka Wandanje
 # Active site

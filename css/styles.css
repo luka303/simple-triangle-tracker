@@ -1,9 +1,9 @@
-body{
-	background-image: url(https://www.pinterest.com/pin/367676757062819141/);
+html{
+	background-image: url(/home/luka/Desktop/triangle-tracker/images/triangle5.gif);
 	margin: lawngreen;
 }
 h1{
-	color:black;
+	color:white;
 	text align:center;
 	font-size: 30px;
 	font-family: monospace;
